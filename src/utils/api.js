@@ -7,7 +7,7 @@ export const authApi = axios.create({
 });
 
 export const activateAccount = axios.create({
-  baseURL: VITE_API_URL+"/auth/activate-account/",
+  baseURL: VITE_API_URL+"/api/v1/auth/activate-account/",
 });
 
 export const booksApi = axios.create({
